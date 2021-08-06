@@ -2,7 +2,7 @@
 
 Thare is one workflow for Alfred users:
 
-1. `okjson.zip`
+1. `OK JSON.zip`
 
 This workflow contains two actions, which you can trigger by typing `ok` or `od`.
 

@@ -9,12 +9,16 @@ We provide integrations for common productivity apps. Currently we support [Alfr
 See [Extensions][extensions] for more information.
 
 ## Feature Requests
-Please open an issue with title starting with "[Feature Request]".
+Open an issue with title starts with "[Feature Request]".
 
 ## Bug Reports
-Please open an issue with title starting with "[Bug Report]".
+Open an issue with title starts with "[Bug Report]".
+
+## Supports
+Open an issue with title starts with "[Support]".
+
 
 [alfred]: https://github.com/francisfeng/everything-okjson/tree/main/extensions/Alfred
 [launchbar]: https://github.com/francisfeng/everything-okjson/tree/main/extensions/LaunchBar 
-[raycast]: https://github.com/francisfeng/everything-okjson/tree/main/extensions/raycast 
+[raycast]: https://github.com/francisfeng/everything-okjson/tree/main/extensions/Raycast 
 [extensions]: https://github.com/francisfeng/everything-okjson/tree/main/extensions

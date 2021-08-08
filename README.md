@@ -1,6 +1,6 @@
 # Everything OK JSON
 
-Download or share extensions, feature requests, bug reports… Everything OK JSON is here.
+Download or share extensions, feature requests, bug reports and everything OK JSON.
 
 ## Extensions
 
@@ -14,9 +14,8 @@ Open an issue with title starts with "[Feature Request]".
 ## Bug Reports
 Open an issue with title starts with "[Bug Report]".
 
-## Supports
-Open an issue with title starts with "[Support]".
-
+## Everything Else
+Open a discussion.
 
 [alfred]: https://github.com/francisfeng/everything-okjson/tree/main/extensions/Alfred
 [launchbar]: https://github.com/francisfeng/everything-okjson/tree/main/extensions/LaunchBar 

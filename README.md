@@ -8,11 +8,11 @@ We provide integrations for common productivity apps. Currently we support [Alfr
 
 See [Extensions][extensions] for more information.
 
-## Feature Requests
-Open an issue with title starts with "[Feature Request]".
+## Feature Request
+Open an issue and select "Feature Request" template.
 
-## Bug Reports
-Open an issue with title starts with "[Bug Report]".
+## Bug Report
+Open an issue and select "Bug Report" template.
 
 ## Everything Else
 Open a discussion.

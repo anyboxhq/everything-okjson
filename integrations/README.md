@@ -1,4 +1,4 @@
-# OK JSON Extensions
+# OK JSON Integrations
 
 We provide integrations for common productivity apps. Currently we support [Alfred][alfred], [LaunchBar][launchbar] and [Raycast][raycast] out-of-the-box. But you can easily write your own if you are not using any of these.
 

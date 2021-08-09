@@ -14,6 +14,10 @@ This action lets you open OK JSON and download URL in your pasteboard.
 
 Valid URL needs to be presented in your Pasteboard. Please also notice that it uses a `GET` method to download content. Make sure the API server does not require any kind of authorization and repsonds with valid JSON string.
 
+3. `cURL command in Pasteboard.lbaction.zip`
+
+This action lets you open OK JSON and run cURL command from your pasteboard.
+
 ## Usage
 1. Download these actions, unarchive and double click to install.
 

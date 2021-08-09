@@ -23,7 +23,29 @@ Valid URL needs to be presented in your Pasteboard.
 
 Please also notice that it uses a `GET` method to download content. Make sure the API server **does not require any kind of authorization** and repsonds with valid JSON string.
 
-3. Open with Specific JSON Content
+3. Run cURL command in Pasteboard
+
+```
+okjson://curl
+```
+
+cURL Command Example:
+```sh
+curl 'https://okjson.app/api/hello' \
+  -H 'cache-control: max-age=0' \
+  -H 'dnt: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: none' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'accept-language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7' \
+  --compressed
+```
+
+4. Open with Specific JSON Content
+
 ```
 okjson://new?content={URL Encoded}
 ```

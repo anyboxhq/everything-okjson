@@ -14,6 +14,10 @@ This script command lets you open OK JSON and download URL in your pasteboard.
 
 Valid URL needs to be presented in your Pasteboard. Please also notice that it uses a `GET` method to download content. Make sure the API server does not require any kind of authorization and repsonds with valid JSON string.
 
+3. `okjson-curl.sh`
+
+This script command lets you open OK JSON and run cURL command from your pasteboard.
+
 ## Usuage
 1. Open Preferences in Raycast and select "extensions" tab.
 2. Select "Script Commands" and Click "Add Directories" if you have not added a directory.

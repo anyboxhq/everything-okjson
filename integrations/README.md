@@ -3,7 +3,7 @@
 We provide integrations for common productivity apps. Currently we support [Alfred][alfred], [LaunchBar][launchbar] and [Raycast][raycast] out-of-the-box. But you can easily write your own if you are not using any of these.
 
 ## URL Schemes
-OK JSON supports three types of URL Schemes. These official integrations are just wrappers around those URL Schemes.
+OK JSON supports four types of URL Schemes. These official integrations are just wrappers around those URL Schemes.
 
 1. View JSON String in Pasteboard
 

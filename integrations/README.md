@@ -77,9 +77,55 @@ Result:
 }
 ```
 
+4. Working with jc (JSON CLI output utility)
+`jc` is a CLI tool and python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries. You can find it here: [jc][jc].
+
+```sh
+# Give OK JSON an alias. You can put it under ~/.bashrc so that it persists through launches.
+alias oj="open 'okjson://paste'"
+
+# List current working directory and open it in OK JSON
+ls -l ./ | jc --ls -p | pbcopy | oj
+
+```
+
+Result:
+```json
+[
+  {
+    "filename": "LICENSE",
+    "flags": "-rw-r--r--",
+    "links": 1,
+    "owner": "francisfeng",
+    "group": "staff",
+    "size": 11357,
+    "date": "Aug 6 09:46"
+  },
+  {
+    "filename": "README.md",
+    "flags": "-rw-r--r--",
+    "links": 1,
+    "owner": "francisfeng",
+    "group": "staff",
+    "size": 19,
+    "date": "Aug 6 09:46"
+  },
+  {
+    "filename": "extensions",
+    "flags": "drwxr-xr-x",
+    "links": 7,
+    "owner": "francisfeng",
+    "group": "staff",
+    "size": 224,
+    "date": "Aug 6 11:37"
+  }
+]
+```
+
 ## More URL Schemes
 If you need more URL Schemes, let us know. You can open an issue in this repository and explain your needs. We would consider it and get back to you.
 
 [alfred]: https://www.alfredapp.com/
 [launchbar]: https://obdev.at/products/launchbar/index.html
 [raycast]:https://www.raycast.com/
+[jc]: https://github.com/kellyjonbrazil/jc

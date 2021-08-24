@@ -78,6 +78,7 @@ Result:
 ```
 
 4. Working with jc (JSON CLI output utility)
+
 `jc` is a CLI tool and python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries. You can find it here: [jc][jc].
 
 ```sh

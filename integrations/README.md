@@ -85,7 +85,7 @@ Result:
 alias oj="open 'okjson://paste'"
 
 # List current working directory and open it in OK JSON
-ls -l ./ | jc --ls -p | pbcopy | oj
+ls -l ./ | jc --ls | pbcopy | oj
 
 ```
 

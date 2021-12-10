@@ -52,19 +52,27 @@ okjson://new?content={URL Encoded}
 
 ## Example
 
-1. Shell Script
+1. Popclip
+```
+# popclip
+name: View in OK JSON
+icon: symbol:curlybraces.square
+url: okjson://new?content=***
+```
+
+2. Shell Script
 ```sh
 #!/bin/bash
 
 open "okjson://paste"
 ```
 
-2. Apple Script
+3. Apple Script
 ```applescript
 open location "okjson://paste"
 ```
 
-3. Shell Script
+4. Shell Script
 ```sh
 #!/bin/sh
 open "okjson://new?content=%7B%22code%22%3A0%2C%22msg%22%3A%22URL%20Scheme%20Usage%22%7D"
@@ -77,7 +85,7 @@ Result:
 }
 ```
 
-4. Working with jc (JSON CLI output utility)
+5. Working with jc (JSON CLI output utility)
 
 `jc` is a CLI tool and python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries. You can find it here: [jc][jc].
 

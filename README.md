@@ -4,6 +4,10 @@
 
 Navigate to [OK JSON Localizations](https://github.com/anyboxhq/okjson-localizations).
 
+## Documentation
+
+[Documentation of OK JSON](https://docs.okjson.app/)
+
 ## Feature Request
 
 Open an issue and select "Feature Request" template.

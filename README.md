@@ -1,9 +1,5 @@
 # Everything OK JSON
 
-## Help Localize OK JSON
-
-Navigate to [OK JSON Localizations](https://github.com/anyboxhq/okjson-localizations).
-
 ## Documentation
 
 [Documentation of OK JSON](https://docs.okjson.app/)
